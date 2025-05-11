@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  overflow-x: hidden;
+}
+body{
+  overflow-x: hidden;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.mapa{
+
+  position:relative;
+  left:250px;
+  height: 1000px;
+  width: 1000px;
+}
+.aa .bb .cc{
+  width: 50px;
+  height: 50px;
+}
+.ha{
+ 
+background: rgba(15, 10, 10, 0.39);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.5px);
+-webkit-backdrop-filter: blur(8.5px);
+border: 1px solid rgba(15, 10, 10, 0.37);
+}
+.hi{
+  background: rgba(255, 255, 255, 1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.5px);
+-webkit-backdrop-filter: blur(8.5px);
+border: 1px solid rgba(15, 10, 10, 0.37);
+}
+
+
+
+.topbar {
+  transition: left 0.3s ease, width 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .topbar {
+    left: 0 !important;
+    width: 100% !important;
+    padding: 8px;
+  }
+
+  .search-bar {
+    width: 100%;
+  }
+
+  .search-bar input {
+    font-size: 14px;
+  }
+
+  .MuiIconButton-root {
+    padding: 6px; /* Reduce button size for smaller screens */
+  }
+}
+
+@media (min-width: 600px) {
+  .topbar {
+    left: 280px !important;
+    width: 1145px !important;
+  }
+}
+.legend{
+  position: relative;
+  display:none;
+}
+@media (max-width: 728px) {
+.mipi{
+  position: relative;
+  left: -250px;
+  font-size: 25px;
+}
+.mapa{
+  width: 1000px;
+  position:relative;
+  
+  height: 700px;
+}
+.region{
+  position: relative;
+  left: 40px;
+}
+.piepara{
+  width: 200px;
+}
+.barba{
+  width: 200px;
+}
+.chre{
+  position: relative;
+  left: -320px;
+  font-size: 20px;
+}
+.chre1{
+  position: relative;
+  left: -320px;
+  font-size: 10px;
+}
+.maep{
+ 
+  height: 500px;
+  width: 100%;
+  z-index: 1;
+}
+}
+.piepara{
+  width: 70%;
+}
+.barba{
+  width: 70%;
+}
+.chre1{
+ font-size: 30px;
+}
+.maep{
+ 
+  height: 800px;
+  width: 100%;
+}
+
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #433535;
+  padding: 8px;
+}
+
+.data-table th {
+  background-color: #191414;
+  text-align: left;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #533b3b;
+}
